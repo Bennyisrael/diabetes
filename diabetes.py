@@ -1,4 +1,3 @@
-print(1)
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -19,4 +18,3 @@ y_pred=svm.predict(X_test)
 accuracy=accuracy_score(y_test,y_pred)
 print(accuracy)
 print(classification_report(y_test, y_pred))
-print("benny")
